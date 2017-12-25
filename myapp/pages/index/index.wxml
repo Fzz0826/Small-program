@@ -1,0 +1,106 @@
+<!--index.wxml-->
+<scroll-view class="wrap">
+  <swiper indicator-dots="{{indicatorDots}}"
+          autoplay="{{autoplay}}" interval="{{interval}}" 
+          duration="{{duration}}">
+
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" style="width:100%;height:100%"/>
+    </swiper-item>
+  </block>
+  </swiper>
+
+  <view class="nav">
+    <block wx:for="{{text}}">
+      <view bindtap='tab' class="{{ind==index ? 'active' : 'default'}}" data-reply-Type="{{index}}">{{item}}</view>
+    </block>
+  </view>
+
+  <view class="list">
+    <view class="dl-list">
+      <view class="dt-list">
+        <image src="image/timg.jpg"  mode="widthFix" class="img"/>
+      </view>
+
+      <view class="dd-list">
+        <text class="title">安心防癌</text>
+        <view class="con">低至10元/年，续保有宽期限，中青年人群专属</view>
+        <view class="dd-bottom">
+          <text class="dd-left"><text class="dd-num">10</text>元起购买</text>
+          <text class="dd-right">0人购买</text>
+        </view>
+      </view>
+    </view>
+    <view class="dl-list">
+      <view class="dt-list">
+        <image src="image/timg.jpg"  mode="widthFix" class="img"/>
+      </view>
+
+      <view class="dd-list">
+        <text class="title">安心防癌</text>
+        <view class="con">低至10元/年，续保有宽期限，中青年人群专属</view>
+        <view class="dd-bottom">
+          <text class="dd-left"><text class="dd-num">10</text>元起购买</text>
+          <text class="dd-right">0人购买</text>
+        </view>
+      </view>
+    </view>
+    <view class="dl-list">
+      <view class="dt-list">
+        <image src="image/timg.jpg"  mode="widthFix" class="img"/>
+      </view>
+
+      <view class="dd-list">
+        <text class="title">安心防癌</text>
+        <view class="con">低至10元/年，续保有宽期限，中青年人群专属</view>
+        <view class="dd-bottom">
+          <text class="dd-left"><text class="dd-num">10</text>元起购买</text>
+          <text class="dd-right">0人购买</text>
+        </view>
+      </view>
+    </view>
+    <view class="dl-list">
+      <view class="dt-list">
+        <image src="image/timg.jpg"  mode="widthFix" class="img"/>
+      </view>
+
+      <view class="dd-list">
+        <text class="title">安心防癌</text>
+        <view class="con">低至10元/年，续保有宽期限，中青年人群专属</view>
+        <view class="dd-bottom">
+          <text class="dd-left"><text class="dd-num">10</text>元起购买</text>
+          <text class="dd-right">0人购买</text>
+        </view>
+      </view>
+    </view>
+    <view class="dl-list">
+      <view class="dt-list">
+        <image src="image/timg.jpg"  mode="widthFix" class="img"/>
+      </view>
+
+      <view class="dd-list">
+        <text class="title">安心防癌</text>
+        <view class="con">低至10元/年，续保有宽期限，中青年人群专属</view>
+        <view class="dd-bottom">
+          <text class="dd-left"><text class="dd-num">10</text>元起购买</text>
+          <text class="dd-right">0人购买</text>
+        </view>
+      </view>
+    </view>
+    <view class="dl-list">
+      <view class="dt-list">
+        <image src="image/timg.jpg"  mode="widthFix" class="img"/>
+      </view>
+
+      <view class="dd-list">
+        <text class="title">安心防癌</text>
+        <view class="con">低至10元/年，续保有宽期限，中青年人群专属</view>
+        <view class="dd-bottom">
+          <text class="dd-left"><text class="dd-num">10</text>元起购买</text>
+          <text class="dd-right">0人购买</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</scroll-view>

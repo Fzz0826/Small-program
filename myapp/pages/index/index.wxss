@@ -1,0 +1,77 @@
+/**index.wxss**/
+.wrap{
+  width:100%;
+  height:100%;
+  background:#f9f9f9;
+  box-sizing:border-box;
+}
+.nav{
+  width:100%;
+  height:100rpx;
+  display: flex;
+  text-align:center;
+  line-height:100rpx;
+  border-bottom:1px solid #eee;
+  font-size:28rpx;
+  background:#fff;
+}
+.default{
+  flex:1;
+}
+.active{
+  flex:1;
+  color:#ff21a4;
+  border-bottom:1px solid #ff21a4;
+}
+.list{
+  width:100%;
+  background:#fff;
+  margin-top:20rpx;
+}
+.dl-list{
+  width:100%;
+  display:flex;
+  border-bottom:1px solid #eee;
+  padding:25rpx;
+}
+.dt-list{
+  flex:1;
+}
+.img{
+  width:100%;
+  height:100%;
+}
+.dd-list{
+  flex:2;
+  padding:0 20rpx;
+  line-height:60rpx;
+}
+.title{
+  font-size:32rpx;
+  display:block;
+}
+.con{
+  width:100%;
+  font-size:28rpx;
+  color:#ccc;
+  line-height:36rpx;
+  display:-webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  word-break: break-all;
+  -webkit-line-clamp:2;
+}
+.dd-bottom{
+  padding-right:20rpx;
+  display:flex;
+  justify-content: space-between;
+}
+.dd-left,.dd-right{
+  font-size:28rpx;
+}
+.dd-left{
+  color:#ff21a4;
+}
+.dd-num{
+  font-size:40rpx;
+}
